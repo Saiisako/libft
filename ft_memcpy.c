@@ -26,8 +26,7 @@ void *ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return dest;
 }
-
-
+/*
 int	main(void)
 {
 	char dest[11] = "Hi";
@@ -37,4 +36,4 @@ int	main(void)
 	memcpy(dest, src, 2);
 	printf("%s\n", dest);
 	return 0;
-}
+} */

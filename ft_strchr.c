@@ -29,7 +29,7 @@ char *ft_strchr(const char *str, int c)
 		return ((char *)&str[i]);
 	return (NULL);
 }
-
+/*
 int	main(void)
 {
 	char str[] = "comment ca va lequipe";
@@ -40,3 +40,4 @@ int	main(void)
 	printf("il y a %c, dans %s, ici %s", i, str, ptr);
 	return 0;
 }
+/*

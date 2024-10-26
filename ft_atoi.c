@@ -47,7 +47,7 @@ int	ft_atoi(char *str)
 	}
 	return (result * sign);
 }
-
+/*
 int	main(void)
 {
 	char	str[] = "-90abc";
@@ -63,5 +63,4 @@ int	main(void)
 	printf("%d\n%d\n", result, result2);
 
 	return 0;
-}
-
+} */

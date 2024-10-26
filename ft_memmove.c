@@ -22,7 +22,7 @@ void *ft_memmove(void *dest, const void *src, size_t n)
 	return (dest);
 	if (str_dest)
 }
-
+/*
 int	main(void)
 {
 	char dest[11];
@@ -32,4 +32,4 @@ int	main(void)
 	ft_memmove(dest, src, sizeof(dest));
 	printf("%s\n", dest);
 	return 0;
-}
+} */
