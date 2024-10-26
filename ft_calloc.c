@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: skock <skock@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,32 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-char	*ft_strdup(const char *s)
+void	*calloc(size_t nmemb, size_t size)
 {
-	char		*str;
-	size_t	size;
-	int		i;
 
-	size = ft_strlen(s);
-	str = (char *)malloc((size + 1) * sizeof(char));
-	if 	(str == NULL)
-		return (NULL);
-	i = 0;
-	while (s[i])
-	{
-		str[i] = s[i];
-		i++;
-	}
-	str[i] = '\0';
-	return (str);
 }
-/*
 int	main(void)
 {
-	char s[] = "salut ca va ?";
 
-	printf("%s\n", ft_strdup(s));
-	return 0;
-} */
+}
