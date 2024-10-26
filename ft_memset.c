@@ -12,7 +12,7 @@
 
 // #include <stdio.h>
 
-void	*memset(void *s, int c, size_t n)
+void	*ft_memset(void *s, int c, size_t n)
 {
 	unsigned char *ptr = (unsigned char *)s;
 	unsigned char value = (unsigned char)c;
