@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_isascii(char c)
 {
@@ -24,6 +24,6 @@ int main(void)
 {
 	char c = 'a';
 	printf("%d", ft_isascii(c));
-	return 0; 
+	return 0;
 }
 */

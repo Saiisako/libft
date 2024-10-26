@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_digit(char c)
 {
@@ -24,6 +24,6 @@ int main(void)
 {
 	char c = '9';
 	printf("%d", ft_digit(c));
-	return 0; 
+	return 0;
 }
 */

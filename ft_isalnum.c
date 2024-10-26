@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include "libft.h"
 
 int	ft_isalnum(char c)
 {
-	if ((c >= 'Z' && c <= 'A') || (c >= 'a' && c <= 'z') 
+	if ((c >= 'Z' && c <= 'A') || (c >= 'a' && c <= 'z')
 		|| (c >= '0' && c <= '9'))
 		return (1);
 	return (0);
@@ -25,6 +25,6 @@ int main(void)
 {
 	char c = '';
 	printf("%d", ft_isalnum(c));
-	return 0; 
+	return 0;
 }
 */
